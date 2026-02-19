@@ -13,7 +13,7 @@ The dataset used is the [Kaggle World Layoffs Dataset](https://www.kaggle.com/da
 
 ---
 
-## Phase 1: Data Cleaning
+## Phase 1: Data Cleaning 
 In this phase, I focused on **Data Quality** to ensure the analysis is based on accurate information.
 
 ### Key Steps:
@@ -44,9 +44,9 @@ With clean data, I explored the dataset to find significant patterns:
 ---
 
 ## How to Run
-1. Import the raw CSV into your MySQL database as `layoffs`.
-2. Run `1_Data_Cleaning.sql` to prepare the cleaned table `layoffs_staging2`.
-3. Run `2_Exploratory_Data_Analysis.sql` to view the analytical reports.
+1. Import the raw CSV into your MySQL database as `[layoffs](data/layoffs.csv)`.
+2. Run `[1_Data_Cleaning.sql](notebooks/1_Data_Cleaning.sql)` to prepare the cleaned table `layoffs_staging2`.
+3. Run `[2_Exploratory_Data_Analysis.sql](notebooks/2_Exploratory_Data_Analysis.sql)` to view the analytical reports.
 
 ## Key Findings
 * **Consumer, Retail, and Transportation** industries were the hardest hit globally.
